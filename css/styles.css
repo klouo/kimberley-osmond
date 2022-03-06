@@ -4,28 +4,6 @@
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   }
   
-@media (max-width: 576px) {
-  h1 {
-    font-size: 36px;
-    line-height: 1.5;
-  }
-  h2 {
-    font-size: 24px;
-    text-align: center;
-  }
-  p {
-    text-align: center;
-  }
-  .primary-link {
-    display: block;
-    text-align: center;
-    margin: 0 20px;
-  }
-  .text-center {
-    text-align: center!important;
-  }
-}
-
   body {
     margin: 100px auto;
     max-width: 800px;
@@ -120,3 +98,24 @@
     text-decoration: underline;
   }
   
+  @media (max-width: 576px) {
+    h1 {
+      font-size: 36px;
+      line-height: 1.5;
+    }
+    h2 {
+      font-size: 24px;
+      text-align: center;
+    }
+    p {
+      text-align: center;
+    }
+    .primary-link {
+      display: block;
+      text-align: center;
+      margin: 0 20px;
+    }
+    .text-center {
+      text-align: center!important;
+    }
+  }
