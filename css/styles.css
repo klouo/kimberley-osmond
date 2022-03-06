@@ -12,7 +12,7 @@
   h1,
   h2,
   h3 {
-    margin: 5px;
+    margin: 10px;
   }
   .text-center {
     text-align: center!important;
@@ -34,6 +34,7 @@
     border-radius: 4px;
     font-size: 18px;
     line-height: 1.5;
+    margin: 10px;
   }
   
   .navigation-links {
